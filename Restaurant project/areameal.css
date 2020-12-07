@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 1;
+    justify-content: space-around;
+    margin-bottom: 3em;
+    background-image: url('header-design.png');
+    height: 5em;
+
+}
+
+header button,
+header .search-div{
+    height:2em;
+    margin-top:1.5em;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#main-container{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.meal-container{
+    width:30%;
+    margin-top:2em;
+
+}
+
+.meal-container .meal-img{
+    width:80%;
+    border-radius: 50%;
+    
+}
+
+.meal-container h3{
+    margin-left: 2em;
+}
+
+.meal-container h5{
+    margin-left: 3.5em;
+}

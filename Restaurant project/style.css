@@ -1,0 +1,112 @@
+body{
+    display:grid;
+
+
+}
+
+body #search-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    justify-content: space-around;
+
+}
+.search-div a{
+    text-decoration: none;
+    height: 2em;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(249, 252, 249);
+    color:black;
+}
+header{
+    text-align: center;
+    height: 5em;
+    padding-top:1em;
+    font-size: 1.5em;
+    font-family: cursive;
+    background-color:rgb(211, 211, 142) ;
+}
+
+body #main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow:1;
+    justify-content: space-around;
+}
+
+body #main-container h3{
+    margin-left: 7em;
+}
+
+body #category-container{
+    margin-top:3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 1;
+    justify-content: space-around;
+
+}
+
+
+
+body #category-container .card{
+    width:25%;
+    margin:1px
+    
+}
+
+.card img{
+    width:88%;
+    border-radius: 50%;
+}
+
+.card div{
+    font-size: 1em;
+    margin-left: 4em;
+    margin-bottom: 3em;
+    
+}
+
+#meal-container{
+    width:100%;
+    margin: 2em;
+    font-size: 15px;
+    
+}
+
+#meal-container .meal-img{
+    width:40%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+
+#meal-container h2{
+    text-align: center;
+}
+#meal-container div .instruction{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 200%;
+}
+
+.meal-container-dropDown{
+    display: flex;
+    flex-direction: row;
+    flex-basis:1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.meal-container-dropDown .meal-card{
+  width:25%;
+
+
+}
+
+
